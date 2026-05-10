@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mirns Chirpirie</title>
+  <title>Jobbernowl Studios</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
       <nav class="nav">
         <div>
           <h1 class="nav-title">
-            Mirns Chirpirie
+            Jobbernowl Studios
           </h1>
           <p class="nav-subtitle">
             Music • Games • Creativity
@@ -26,7 +26,7 @@
         </div>
 
         <div class="nav-studio">
-          <p>Jobbernowl Studios</p>
+          <p></p>
         </div>
       </nav>
 
@@ -136,7 +136,7 @@
             Have a creative idea? Send a short description below and I’ll consider it for future projects.
           </p>
 
-          <form class="idea-form">
+          <form class="idea-form" id="idea-form">
             <label class="idea-label" for="idea-input">
               Your idea
             </label>
@@ -144,6 +144,7 @@
             <button type="submit" class="submit-button">
               Send idea
             </button>
+            <div class="status-message" id="submit-status"></div>
           </form>
         </div>
       </section>
@@ -197,5 +198,6 @@
     // Update every second
     setInterval(updateCountdown, 1000);
   </script>
+  <script src="scripts.js"></script>
 </body>
 </html>
