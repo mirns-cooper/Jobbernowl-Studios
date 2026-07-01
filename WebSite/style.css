@@ -96,7 +96,7 @@ h1.title{
 }
 h1.title span{ display:block; }
 h1.title .accent{ color: var(--paper); }
-h1.title .eject{ color: var(--bg-deep); -webkit-text-stroke: 1px var(--paper); }
+h1.title .eject{ color: var(--paper); -webkit-text-stroke: 1px var(--paper); }
 
 .subline{
   font-family:'IBM Plex Mono', monospace;
